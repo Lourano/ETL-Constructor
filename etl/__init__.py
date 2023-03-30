@@ -6,7 +6,7 @@ from .components.loaders import (
     SimpleLoader
 )
 
-from .implementations.helloword import HelloWorldETL
+from .implementations.helloworld import HelloWorldETL
 
 
 __all__ = [SimpleExtractor, SimpleLoader, HelloWorldETL]
